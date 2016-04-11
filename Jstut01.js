@@ -10,3 +10,17 @@ alert (years + someText);
 
 //<script src="test.js"></script>
 
+//Functions
+
+//{} ass data
+
+function saySomething{}(
+    // all statements go inside curly braces
+    
+    alert("this is a function")
+
+)
+
+//differiante call function vs statement is the difference.
+
+saySomething();
