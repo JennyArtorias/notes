@@ -6,3 +6,7 @@ alert (years + someText);
 // JAVA is a strongly typed language
 // int years = 35;
 
+//External file e.g
+
+//<script src="test.js"></script>
+
