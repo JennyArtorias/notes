@@ -207,6 +207,79 @@ roads[1] = "dirt";
 roads[2] = "cememnt";
 roads[3] = "tar";
 
+// JAVASCRIPT OBJECTS
+
+CONCEPT
+
+var orc = {
+color: "green",
+height: 5,
+weight: 180
+
+};
+
+orc.height;
+
+Standalone variables
+
+var color = "green";
+var height = 5;
+var weight = 180
+
+all variables together assigned together = something (object)
+
+Multiple varialbes = assigned to 1 variable
+Multiple variables should be related to 1 variable(object)
+
+1. Variables inside an object are called properties
+2. Real life objets have multiple properties
+3. Use the . to access an object's properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
