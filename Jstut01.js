@@ -56,9 +56,26 @@ var food = "Apple";
 if(food == "Apple"){
 
 alert("We ate some fruit specifically apple")}
+else{
+    
+    alert("we ate something else")
+};
 
+// else statement executed if condition is false so if the value food does not equal to "Apple"
 
+//else if allows for multiple condition
+else if {food == "Meat"){}
 
+    
+else if (food == "Meat"){
+    alert("We ate some Fast food");
+}
+
+else{
+    
+    alert
+}
+//If true execute if false go to if "else" statement.
 
 
 
