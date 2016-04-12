@@ -22,5 +22,7 @@ function saySomething{}(
 )
 
 //differiante call function vs statement is the difference.
+//Tying functions to events.(mouse click)
+saySomething(); //calling function 
 
-saySomething();
+
