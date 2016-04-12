@@ -176,6 +176,31 @@ batting("steve", 351); // we pass in arguments to parameters
 
 Pass by value <- these aren't the actual values that are passed into the parameters of the function. It is the COPY Of these values that get passed into function
 
+// Javascript ARRAYS
+
+var road = "stone"
+var road2 = "dirt"
+
+// arrays are variables that can hold MULTIPLE values
+// ARRAY VARIABLE
+// array defined = [] assigned
+//each value has index start with 0 
+
+var roads = ["stone", "dirt", "cement", "tar",];
+
+//ACCESS values through index
+
+var roadTravelled = road[1]
+// roadTravelled assigned value road[1];
+
+document.write(roadTravelled);
+
+//UPDATE a array
+
+roads[1] = "cobblestone"; // assign a new value of cobblestone reassigned value
+
+
+
 
 
 
