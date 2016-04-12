@@ -126,7 +126,20 @@ batting("steve", 0); // Arguments passed through
 // & conditional LOGICAL OPERATOR && two conditions
 
 
+// Passing information into function 
 
+// RETURN STATEMENT
+
+return to what called it 
+variable can call functions
+variable can call into function
+
+function add(x,y){
+return result;
+
+document.write(theResult);
+var theResult = add(6,5); //Variable the Result called the function sent value back to result function boomerang
+}// value is 30 
 
 
 
