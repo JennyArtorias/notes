@@ -32,3 +32,11 @@ var number2 = 4;
 var number1 = number1 + number2;
 
 documnet.write(number1);
+
+number1 +=number2;
+
+// short hand version add number 2 to number1 and assign to number1 Compound operators
+
+//incremental operator
+
+number1++;
