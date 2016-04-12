@@ -39,4 +39,8 @@ number1 +=number2;
 
 //incremental operator
 
-number1++;
+number1++; //incremental
+
+var number1 = 4 + 3 = 5;
+
+// Multiple operators precedence same as math rules () for override priority
