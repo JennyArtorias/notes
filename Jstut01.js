@@ -199,6 +199,14 @@ document.write(roadTravelled);
 
 roads[1] = "cobblestone"; // assign a new value of cobblestone reassigned value
 
+var roads = []; // LONG hand way of creating a array 
+CREATING EMPTY ARRAY array constructor?
+
+roads[0] = "stone"
+roads[1] = "dirt";
+roads[2] = "cememnt";
+roads[3] = "tar";
+
 
 
 
