@@ -162,8 +162,19 @@ var keeps it local in a function. If you don't decalre it becomes a global varia
 Global variables stay alive while page is loaded
 Local variables disappear after done 
 
+//PASS BY VALUE
+
+function batting(player, distance) {
+
+var more = player + " hit the ball " + distance + " feet" ;
+document.write(more);
+
+}
+
+batting("steve", 351); // we pass in arguments to parameters
 
 
+Pass by value <- these aren't the actual values that are passed into the parameters of the function. It is the COPY Of these values that get passed into function
 
 
 
