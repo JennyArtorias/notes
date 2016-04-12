@@ -265,10 +265,18 @@ var orc = [
 properties -> describe orc
 actions -> function
 
+name : function keyword
+yell:function(){
+document.write("Orcs are the best!")}
+}
+
+orc.color;
+orc.yell(); -> access method function
+
+standalone functions
 
 
-
-
+NOTE: FUNCTIONS INSIDE OBJCTS ARE CALLED METHODS
 
 
 
