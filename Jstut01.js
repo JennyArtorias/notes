@@ -26,3 +26,9 @@ function saySomething{}(
 saySomething(); //calling function 
 
 
+var number1 = 7;
+var number2 = 4;
+
+var number1 = number1 + number2;
+
+documnet.write(number1);
