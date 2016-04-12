@@ -44,3 +44,36 @@ number1++; //incremental
 var number1 = 4 + 3 = 5;
 
 // Multiple operators precedence same as math rules () for override priority
+//Conditionals
+if(Conditions){}
+
+// examine if condition is true or not conditionals 
+// true or false
+
+// variable has a particular value or not
+// == not* assignment operator examing variable = apple
+var food = "Apple";
+if(food == "Apple"){
+
+alert("We ate some fruit specifically apple")}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
