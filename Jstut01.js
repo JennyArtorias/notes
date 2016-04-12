@@ -141,6 +141,27 @@ document.write(theResult);
 var theResult = add(6,5); //Variable the Result called the function sent value back to result function boomerang
 }// value is 30 
 
+//GLOBAL AND LOCAL VARIABLES 
+
+var name = "Henry"; // global variables
+
+function printName() {
+var name2="Sarah"; // local variable ONLY function can see local variable
+
+document.write(name2)// part of functions instructions
+
+
+}
+printName(); // call function
+
+document.write(name2);
+//Nuance
+var keeps it local in a function. If you don't decalre it becomes a global variable var name2="Sarah"
+//Nuance
+
+Global variables stay alive while page is loaded
+Local variables disappear after done 
+
 
 
 
