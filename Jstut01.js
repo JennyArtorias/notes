@@ -233,10 +233,37 @@ Multiple variables should be related to 1 variable(object)
 
 1. Variables inside an object are called properties
 2. Real life objets have multiple properties
-3. Use the . to access an object's properties
+3. Use the "." to access an object's properties
 
+Object.propertie
 
+= -> :
+; -> ,
 
+properties 
+name : value (pair)
+
+Object vs array
+
+var orc = {
+color:"green",
+height: 5,
+weight: 180
+};
+
+differetn data types -> object -> remember name
+Index -> arrays
+
+Array
+
+var orc = [
+"green",
+5,
+180
+];
+
+properties -> describe orc
+actions -> function
 
 
 
