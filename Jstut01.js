@@ -78,9 +78,33 @@ else{
 //If true execute if false go to if "else" statement.
 
 
+//LOOPS
+//testing a condition true or false -> execute code
+
+// Test condition again different if and while loops 
+// loop executes till condition is false then exits out
 
 
+while(condition) {
+    document.write("A statement has run");
+}
 
+var i = 1;
+while(i < 5) {
+    document.write("A statement has run");
+i++
+// Increment otherwise infinite loop
+// check condition loop
+}
+
+/* var i = 1;
+while(i < 5){
+i++;
+}
+// Key difference all the statements counter, condition, incrementer
+for(var i = 1; i < 5; i++){
+    document.write("a Statement has run");
+}
 
 
 
