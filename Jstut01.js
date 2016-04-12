@@ -106,6 +106,24 @@ for(var i = 1; i < 5; i++){
     document.write("a Statement has run");
 }
 
+//FUNCTION + IF statement
+
+function batting(player, distance) {
+if(distance <= 350 && distance > 0){ // && both conditions have to be true.
+document.write(player + "hit the ball " );
+}
+
+else if (distance <= 0){
+document.write(player + "strike out");
+}
+else{
+document.write(player + "hit a home run);
+}
+}
+
+batting("steve", 0); // Arguments passed through
+
+// & conditional LOGICAL OPERATOR && two conditions
 
 
 
