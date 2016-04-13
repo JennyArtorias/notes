@@ -392,6 +392,16 @@ document.write(newNumber);
 
 //MAth Object in Javascript
 
+//DATE OBJECT 
+
+var todayDate = new Date(); //new keyword create new objects reference object. Create a instance of Date" object. instance = copy
+
+() -> constructor 
+
+
+
+document.write(todayDate);
+
 
 
 
