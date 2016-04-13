@@ -377,6 +377,21 @@ document.write(hello);
 
 empty space = Space
 
+//MATH object 
+
+var number = 4.7;
+
+var newNumber = 26 + Math.round(number); // Acces math object
+var newNumber = 26 + Math.ceil(number); // up
+var newNumber = 26 + Math.floor(number); // down
+
+var number = Math.sqrt(16);
+
+
+document.write(newNumber);
+
+//MAth Object in Javascript
+
 
 
 
