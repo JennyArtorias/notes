@@ -275,13 +275,45 @@ orc.yell(); -> access method function
 
 standalone functions
 
+function yell {}
+ // Flipped functions inside object and standalone objects
 
 NOTE: FUNCTIONS INSIDE OBJCTS ARE CALLED METHODS
 
+OBJECTS part 3 // Practical
 
 
+var orc = {
+
+hair: "green",
+age: 26,
+stomachFull: true,
+eat: function(){
+document.write("Yum Yum!");
+}
+};
 
 
+var newAge = orc.age + 2;
+orc.age = orc.age + 2; // same parallel
+orc.eat(); // method execute 
+
+
+//Constantly change properties in object custom objects
+// Javascript predefined for us Objects
+
+document.write(orc.age);
+
+orc.stomachFull = false;
+
+if (orc.stomachFull == true) {
+orc.eat(); // if condition is true then execute statement
+}
+
+else{
+
+document.write("not eating")
+}
 
 
 
