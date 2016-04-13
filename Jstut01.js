@@ -315,6 +315,24 @@ else{
 document.write("not eating")
 }
 
+// Objects part 4
+
+var orc = {
+
+hair: "green", //string
+age: 26, // numbers
+stomachFull: false, //boolean
+
+
+};
+
+orc.hair= "purple";
+orc.hair= 1;
+orc.hair2 = "red"; // new propertie assigned value
+delete orc.hair2; // DELETE property of object.
+orc.hair2; // ADDING property without adding value.
+
+document.write(orc.hair2);
 
 
 
