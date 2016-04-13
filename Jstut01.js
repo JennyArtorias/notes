@@ -334,12 +334,39 @@ orc.hair2; // ADDING property without adding value.
 
 document.write(orc.hair2);
 
+//STRING OBJET
+
+custom object 
+
+GLOBAL OBJECTS
+
+1. Objects that javascript provides that we can use
+2. ALready written for us so we can just use their properties and methods
+
+Preprovided written already for us
+
+Standalone or primitive variables
+
+var color = "green"; // String Object
+var eight = 5; // Math Object and Number Object 
+
+javascript provides object based on data type 
+
+var hello = "Hello how are you doing";
+
+document.write(hello);
+
+// String Object in JavaScript
 
 
 
+Once javascript determines its a string variable it takes the string object and wraps it around the variable
 
+string. // not need not wrapped around string variable
 
-
+hello = hello.toUpperCase(); // Uppercase
+hello.toLowerCase(); // lowerCasae
+hello.length;
 
 
 
