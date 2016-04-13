@@ -452,7 +452,51 @@ text node
 NODES are a type of OBJECT
 HIERACHY
 
-// 
+// getElementById method
+
+SELECTORSSSS
+
+<p id="para1"> Sometext for this tutorial </p>
+
+<button onclick="changeStyle()>Submit</button>
+
+//STACK . . . . 
+function changeStyle(){
+    var text = document.getElementById("para1").style.color ="blue"
+}
+
+1.Need to grab the element ID,. WE can do that with the getElementById method.
+
+2. Once we have the id we are good to goand we can start to style the element with the style object which is another object int he dom
+
+CSS
+color 
+border
+margin
+
+background-color
+font-style
+text-decoration
+padding-left
+
+Javascript //style object style.color
+
+color
+border
+margin
+
+backgroundColor // drop hypen in javascript
+fontStyle
+textDecoration
+
+padding-left// padding keeps hypen in javascript 
+border-left
+
+e.g
+var text = document.getElementById("para").style.backgroundColor="red";
+var text = document.getElementById("para").style.fontStyle="italic";
+altering css properties using javascript.
+
 
 
 
