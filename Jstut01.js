@@ -519,7 +519,7 @@ JAVASCRIPT
 
 function changeStyle(){
 
-    var paragraph = document.getElementByTagName("p"); // surround by quotes
+    var paragraph = document.getElementByTagName("p"); // surround by quotes 4 paragraph nodes
     
     var changeParaText = paragraph[1].style.fontStyle="italic"; // NOde list -> arrays
     
@@ -527,6 +527,14 @@ function changeStyle(){
     var changeParaText = paragraph[1].style.fontStyle="italic";
     var changeParaText = paragraph[2].style.fontStyle="italic";
     var changeParaText = paragraph[3].style.fontStyle="italic";
+    
+    <-- LOOP i = index starting point , condition, incrementor/counter
+    
+    for(var i = 0; i < paragraph.length; i++  ){
+        paragraph[i].style.fontStyle = "italic"; // i changeParaText
+    
+    
+    }
     
     
 
