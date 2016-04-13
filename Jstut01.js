@@ -498,7 +498,39 @@ var text = document.getElementById("para").style.fontStyle="italic";
 altering css properties using javascript.
 
 
+// getElementsByTag method
 
+HTML
+
+<p id="para1"> SOME text for this tutorial </p>
+<p id="para1"> SOME text for this tutorial </p>
+<p id="para1"> SOME text for this tutorial </p>
+<p id="para1"> SOME text for this tutorial </p>
+
+<button onclick="changeStyle()"> Hit Submit if you want to change all the text </button>
+
+
+TAGS grabbing all tags not specific vs id
+
+NODES LIST tag builds NODES list 0, 1 , 2 , 3  4 etc.... specify indivdual tag
+stored in variable down there 
+
+JAVASCRIPT
+
+function changeStyle(){
+
+    var paragraph = document.getElementByTagName("p"); // surround by quotes
+    
+    var changeParaText = paragraph[1].style.fontStyle="italic"; // NOde list -> arrays
+    
+    var changeParaText = paragraph[0].style.fontStyle="italic";
+    var changeParaText = paragraph[1].style.fontStyle="italic";
+    var changeParaText = paragraph[2].style.fontStyle="italic";
+    var changeParaText = paragraph[3].style.fontStyle="italic";
+    
+    
+
+}
 
 
 
