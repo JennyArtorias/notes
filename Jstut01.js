@@ -408,7 +408,51 @@ todayDate.setYear(17); // Setting the date ourselves. passing value through para
 
 document.write(todayDate);
 
+//DOM DOM DOM DOM DOM DOM DOM DOM
 
+parse then renders
+
+then creates -> dom 
+
+
+html code loaded first then creates the Document object model based on html code.
+
+Dom allows us to use javascript code to access parts of the webpage
+
+Html Document
+DOM document
+
+-> both documents 
+
+different representations
+
+Browser loads page
+
+DOM is created - objects that we can use that represents the HTML. Objects are stored in the DOM.
+
+The DOM allows s to use our javascript code to access parts of the web page.
+
+HTML is a mark up language
+
+Objects created for each tags 
+
+Model => tree structure -> Relationships 
+
+parent Child element
+
+Document-> represents entire model all methods and properties 
+
+Attributes / text
+Nodes
+
+Element node
+attribute node
+text node 
+
+NODES are a type of OBJECT
+HIERACHY
+
+// 
 
 
 
