@@ -367,10 +367,15 @@ string. // not need not wrapped around string variable
 hello = hello.toUpperCase(); // Uppercase
 hello.toLowerCase(); // lowerCasae
 hello.length;
+hello.charAt(4) // Give us character at the 4th index
+hello.replace("doing", "today");// replace doing with today
+hello.bold;
+hello.italic;
+
+document.write(hello);
 
 
-
-
+empty space = Space
 
 
 
