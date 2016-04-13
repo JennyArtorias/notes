@@ -398,6 +398,12 @@ var todayDate = new Date(); //new keyword create new objects reference object. C
 
 () -> constructor 
 
+Current date and time system clock set at.
+
+var useString = todayDate.toDateString(); //String format
+todayDate.getYear(); // receiving what is arleady out there get think skyrim
+
+todayDate.setYear(17); // Setting the date ourselves. passing value through parameter to alter the year.
 
 
 document.write(todayDate);
