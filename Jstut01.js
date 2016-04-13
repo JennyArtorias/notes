@@ -540,8 +540,48 @@ function changeStyle(){
 
 }
 
+getElementByClassName //TWO step process
+
+1.Select the Element we want to target
+
+    getElementById() - Select elements by their id = <p id="para"> text</p>
+    getElementsByTagName() - Select elements by their tagName
+    getElementsByClassName() - Select elements by their class name 
+    
+2. Change whatever is we want to change in the element
+
+    CSS styles
+    Change text
+    Change images
+    Validation
+    Create new Pages
+    Change internals
 
 
+EGGGGG
+
+<p class="para"> Some text for this tutorial </p>
+<p class="para"> Some text for this tutorial </p>
+
+<button onclick="changeStyle()">Hit submit to chang ethe text <button>
+
+
+
+function changeStyle(){
+
+var paragraph = document.getElementByClassName('para'); //Node list is key target. hold of all classes
+
+
+var changeText = paragraph[0].style.color= "red";
+var changeText = paragraph[1].style.color= "red";
+}
+
+loop(){
+
+for(i = 0; i < paragraph.length; i++){
+    paragraph[i].style.color="red";
+}
+}
 
 
 
