@@ -582,7 +582,14 @@ for(i = 0; i < paragraph.length; i++){
     paragraph[i].style.color="red";
 }
 }
+// Replace content using innerHTML innerHTML property of object
 
+var paragraph = document.getElementByClassName('para');
+
+var changeText = paragraph[0].innerHTML = "New Text 1"
+var changeText = paragraph[0].innerHTML = "New Text 2"
+
+//
 
 
 
