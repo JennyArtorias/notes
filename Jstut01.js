@@ -591,7 +591,7 @@ var changeText = paragraph[0].innerHTML = "New Text 2"
 
 //
 
-
+FUNCTIONS CALLBACK FUNCTIONS
 
 
 
