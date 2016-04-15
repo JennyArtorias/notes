@@ -594,6 +594,27 @@ var changeText = paragraph[0].innerHTML = "New Text 2"
 FUNCTIONS CALLBACK FUNCTIONS
 
 
+Replace content using the innerHTML
+
+<p class="para"> Old text 1 </p>
+<p class="para"> Old text 2 </p>
+
+<button onclick="changeStyle()">Hit submit for some new text</button>
+
+
+------------------------------
+
+function changeStyle(){
+
+    var paragraph = document.getElementsByClassName('para');
+    
+    var changeText = paragraph[0].innerHTML = "New Text 01";
+    var changeText = paragraph[1].innerHTML = "New Text 02";
+    
+    //property of our object not a method -> innerHTML
+
+}
+
 
 
 
