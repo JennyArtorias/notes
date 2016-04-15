@@ -1029,12 +1029,33 @@ function removeElements(){
  
  }
  
+ ----------------------------------------------------------------
+ TRAVERSING THE DOM SIDEWAYS HIERACHY 
+ -------------------------------------------------
+ 
+ 
+ 
+ function change() {
+ 
+    var para2 = document.getElementById('p2');
+    var sibling = para2.nextElementSibling; // RIGHT -> 
+    sibling.style.coor = "blue";
+    
+    etc
+    
+    var sibling = para2.previousElementSibling; // Left <----
+    
+    .previousSibling
+    
+    when you pull out ELEMENT then white space nodes count []
  
  
  
  
+ }
  
  
+ --------------------------------------------------
  
  
  
