@@ -952,13 +952,59 @@ function removeElements(){
  parent.removeChild(elementP);
  
  
+ ---------------------------------------------------
+ 
+ TRAVERSING THE DOM
+ 
+ --------------------------------------------------
+ 
+ Targeting elements by getelement ... 
+ 
+ Different way to target elemnt 
+ Use parent child relationship to TARGET element
+ 
+ Moving parent to child -> downwards or sideways or upwards DOM hierachy visual
+ 
+ DOM hierachy
+ 
+ ----------------------------------------
+  
+  TRAVERSING DOWNWARDS HIERACHY
+ <html>
+ 
+ <div id="main">
+    
+    <p>Dark souls text</p>
+    <p>Dark souls text</p>
+    <p>Dark souls text</p>
+    <p>Dark souls text</p>
+    
+    </div>
+    
+    &nbsp&nbsp
+    
+    <button onclick="changeText()">Click here to change some text</button>
+    
+    </html>
+    
+    -----
+    attribute text , elements 
+    
+  function ChangeText(){
+  
+    var parent = document.getElementById("main");
+    var child = parent.childNodes[3];  // USING A PROPERTY -> NODE list -> WHITE SPACE is a NODE -> ALL NODES 
+    
+    child.style.color = "blue";
+    
+    // var child = parent.childNode[3];
+    
+    var child = parent.firstElementChild; // ELEMENTS -> first, last
  
  
+  }  
  
- 
- 
- 
- 
+ -----------------------------------------------------------------------
  
  
  
