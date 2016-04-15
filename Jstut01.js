@@ -744,7 +744,29 @@ INTRO to EVENTS
     -------------------------------------------------------------------
 
 
+    CHANGE IMAGE WITH MOUSEOVER
+    
+-------------------------------------
 
+<html>
+    <img src="stalin.jpg" id="image" onmouseover="newPicture()" onmouseout="oldPicture()">
+    
+    </html>
+    
+    ---------------------------------------------------
+    
+    function newPicture(){
+    
+    document.getElementById("image").src="lenin.jpg"
+    
+    }
+    
+    function oldPicture(){
+    
+    document.getElementById("image").src="stalin.jpg"
+    }
+    
+    
 
 
 
