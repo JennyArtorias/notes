@@ -767,6 +767,46 @@ INTRO to EVENTS
     }
     
     
+    ------------------------------------------------------------------------
+    
+    CREATING A NEW ELEMENT vs updating existing elements
+    
+    --------------------------------------------------------------------------
+    <div id="main">
+    <p>Dark souls I</p>
+    <p>Dark souls II </p>
+    </div>
+    
+    &nbsp&nbsp
+    
+    <button onclick="newParagraph()">Click if you want to read about another battle</button>
+    
+    ----------------------------------------------------------------------
+    
+    function newParagraph(){
+    
+1    var element = document.createElement("p") //CREATE element METHOD
+     var main = document.getElementById("main");
+    
+2    main.appendchild('element');
+    
+3    //Empty element so far need to add text node everthing is a node. in hierachy
+
+    var text = document.createTextNode("Dark souls III")
+    
+    //attach this text node to parent node
+    
+    element.appendChild(text); //appendChild method
+    
+    Remember to append nodes after creating them 
+    
+    
+    
+    }
+    
+    parent element child element. relationship logical maya add after last element.
+
+    
 
 
 
