@@ -805,9 +805,46 @@ INTRO to EVENTS
     }
     
     parent element child element. relationship logical maya add after last element.
+    
+    ----------------------------------------------------------------------
 
     
-
+    Creating a NEW ELEMENT part 2 
+    
+    ---------------------------------------------------------------------
+    
+    function newParagraph() {
+    
+    // This creates a heading
+    
+    var elementH = document.getElementById("h2");
+    
+    var main = document.getElementById("main"); //don't need two mains
+    
+    
+    main.appendChild(elementH);
+    
+    var textH = document.createTextNode("Dark Souls GAME");
+    
+    elementH.appendChild(textH);
+    
+    
+    
+    
+    
+    //This creates a paragraph
+        var element = document.createElement("p");
+        var main = document.getElementById("main");
+        
+        main.appendChild(element);
+        
+        var text = document.createTextNode("Dark Souls III");
+        
+        element.apendChild(text);
+    
+    
+    
+    }
 
 
 
