@@ -846,7 +846,58 @@ INTRO to EVENTS
     
     }
 
+--------------------------------------------------------------------
 
+REMOVE ELEMENT
+
+---------------------------------------------------------------------
+
+<html>
+
+&nbsp&nbsp
+<button onclick="newParagraph()">Click if you want to read about antoher battle</button>
+
+<br><br>
+<button onclick="removeHeader()">Click here to remove section</button>
+
+
+
+</html>
+
+//html -> DOM -> javascript manipulation of DOM -> everything node -> relationship nodes
+----------------------------------------------------------
+
+var textH = document.creatTextNode("Dark Souls Game");
+elementH.appendChild(textH);
+
+//THis creates a paragraph
+
+var element = document.createElement("p");
+main.appendChild(element);
+
+var text = document.createTextNode("Dark souls II");
+
+element.appendChild(text);
+
+==
+
+function removeElements(){
+
+    var elementH = document.getElementByTagName("h2")[2]; // BRACKETS TO SPECIFY POSITION 3rd heading
+    
+    //specify parent node we want to remove child noe from
+    
+    var parent = elementH.parentNode;   //property gets parentNode of headnode <div id= main> 
+    
+    // THIS IS LIKE ALEGEBRA FILL IN BLANKS CREATING EQUATIONS
+    
+    parent.removeChild(elementH);
+    
+    varelementP = document.getElementByTagName("p")[4];
+    varparent = elementH.parentNode; //Reuse same object as many time as you can not needed)
+    parent.removeChild(elementP);
+
+}
 
 
 
