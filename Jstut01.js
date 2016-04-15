@@ -974,7 +974,7 @@ function removeElements(){
  
  <div id="main">
     
-    <p>Dark souls text</p>
+    <p id="main02">Dark souls text</p>
     <p>Dark souls text</p>
     <p>Dark souls text</p>
     <p>Dark souls text</p>
@@ -1006,8 +1006,28 @@ function removeElements(){
  
  -----------------------------------------------------------------------
  
+ TRAVERSING THE DOM CHILD TO PARENT UPWARDS
+ 
+ ------------------------------------------------------------------
+ 
+ selecting child paragraph then target parent node
+ 
+ -------------------------------------------------------------------
  
  
+ function changeText(){
+ 
+    var child = document.getElementById("p1");
+    
+    var parent = child.parentNode; //ONLy one parent no specify compared to downward traverse
+    
+    //parentNode or parentElement
+    parent.style.color = "blue";
+ 
+ 
+ 
+ 
+ }
  
  
  
