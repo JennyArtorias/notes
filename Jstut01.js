@@ -718,9 +718,30 @@ INTRO to EVENTS
     
     Javascript code
     
+    ---------------------------------------------------------------
+    the MOUSEOVER EVENT
+    
+    <html>
+        <p id="para" onmouseover="changeBackground()" onmouseout="backToNormal()"> Some text for this tutorial </p>
+        
+        </html>
+        
+        --------------------------------------------------------
     
     
+    function changeBackground(){
     
+        var text = document.getElementById("para").style.backgroundColor = "red";
+    
+    
+    }
+    
+    function changeBackToNormal(){
+        
+        var text = document.getElementById("para").style.backgroundColor = "";
+    
+    }
+    -------------------------------------------------------------------
 
 
 
