@@ -898,7 +898,110 @@ function removeElements(){
     parent.removeChild(elementP);
 
 }
-
+ ----------------------------------------------------------
+ 
+ CREATE ATTRIBUTE
+ 
+ ----------------------------------------------------------
+ 
+ ELEMENT NODES , TEXT NODES, ATTRIBUTE NODES big 3 
+ 
+ ---------------------
+ 
+ 
+ css
+ 
+ #test{
+ 
+ color: darkblue;
+ }
+ 
+ -------------------
+ 
+ // THis creates a paragraph
+ 
+ var element = document.createElement("p");
+ 
+ main.appendChild(element);
+ 
+ var text = document.creatTextNode("Dark souls III");
+ 
+ element.appendChild(text);
+ 
+ var pAttribute = document.createAttribute("id"); // Any attribute create attribute
+ pAttribute.value = "test"; // setting id value 
+ 
+ element.setAttributeNode(pAttribute); // method ()
+ 
+ // SEting vs appending setting 
+ attribute side ways part of the element techincially not a child
+ 
+ 
+ 
+ 
+ function removeElements(){
+ 
+ 
+    var elementH = document.getElementsByTagName("h2")[2];
+    var parent = elementH.parentNode;
+    
+    parent.removeChild(elementH);
+ }
+ 
+ var elementP = document.getElementByTagName("p")[4];
+ parent.removeChild(elementP);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 
