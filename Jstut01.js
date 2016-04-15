@@ -639,6 +639,76 @@ function changeStyle() {
     var secondParaText = paragraph[1].innerHTML = "";
 }
 
+----------------------------------------------------------------
+
+// CHANGING AN IMAGE
+
+1. Select the element we want to target
+getElementById() - select elements by their id = <p id = ara" > text </p>
+getElementByTagName() = select elements by their tag name = <p id ="para">text</p>
+getElementsByClassName() - select elements by their class name - <p class="para"> text</p>
+
+2. Change whatever is we want to change in that element
+
+CSS styles
+Change text - innerHTML property
+Change images -src property
+Validation
+Create new pages
+Change internals
+
+---------------------------------
+
+<html>
+
+    <p class="para"> Hello there </p> //Property inside p tag
+    
+    <img src="stalin.jpg" id="image"/> </br></br> // attribute img tag
+    
+    <button onclick="changeStyle()">Hit button to change image</button>
+    
+    </html>
+    
+    ATTRIBUTE/PROPERTY
+    
+    --------------------------------------
+    
+
+function changeStyle() {
+
+    document.getElementById("image").src="lenin.jpg"; //SRC property access
+
+
+
+}
+
+
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
