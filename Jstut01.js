@@ -686,7 +686,41 @@ function changeStyle() {
 ----------------------------------------
 
 
+INTRO to EVENTS
 
+<html>
+
+    <p id="para1"> Some text for this tutorial </p>
+    
+    <button onclick="changeColor()">Submit</button>
+    
+    </html>
+    
+    -----------------------------------------------------------
+    
+    1.Choose the element where we will place our event - in this case the button element 
+    
+    2. Choose the event we want to use ( in this coase on click)
+    
+    When the even hapens (yes something has to happen!
+    )
+    IN other words the click) our javascript
+    function (which contains our code) is called by the onclick event.
+    
+    --------------------------------------------------------------
+    
+    User triggered event / Onload event -> e.g web page loads
+    
+    pick element -> choose type of event single event vs multiple events
+    event triggers javascript function otherwise code just  sitting there 
+    
+    ---------------------------------------------------------------
+    
+    Javascript code
+    
+    
+    
+    
 
 
 
