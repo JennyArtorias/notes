@@ -615,7 +615,29 @@ function changeStyle(){
 
 }
 
+Reading content using innerHTML
 
+<p class="para"> Hello there </p>  // 1 + 2 = 3 line
+<p class="para"> from the Moon </p>
+<p class="para"> </p>
+
+<button onclick="changeStyle()">HIt submit to combine these words</button
+
+---------------------------------------------------------------
+
+function changeStyle() {
+
+    var paragraph = document.getElementByClassName('para');
+    
+    var firstParaText = paragraph[0].innerHTML;
+    var secondParaText = paragraph[1].innerHTML;
+    
+    var addThem = paragraph[2].innerHTML = firstParaText + SecondParaText ;
+
+
+    var firstParaText = paragraph[0].innerHTML = "";
+    var secondParaText = paragraph[1].innerHTML = "";
+}
 
 
 
