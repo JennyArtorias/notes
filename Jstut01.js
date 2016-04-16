@@ -1056,10 +1056,31 @@ function removeElements(){
  
  
  --------------------------------------------------
+ FORM VALIDATION 
+ --------------------------------------------------
+ 
+ <form id="theForm" action="message.html" method="post" onSubmit="validateTextbox();"> // add return validateTextBox
+ 
+ ----------
+ 
+ Preventing user inbetween to validate
+ 
+ =================
+ function validateTextbox(){
+ 
+    var box = document.getElementById("name");
+    
+    if (box.value == "") {} // is this equal to null is value of box = to null true 
+    alert("The field marked in red cannot be blank"); // stop form from being executed
+    
+    return false;  // return boolean  that will stop on submit function stopping onSubmit happening
+    
+    
+    stop form 
  
  
- 
- 
+ }
+ --------------------------------------------------
  
  
  
