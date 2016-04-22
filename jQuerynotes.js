@@ -20,3 +20,12 @@ eg
 class well by using the $(".well") selector.
 
 add.Class("x y") multiple classes
+
+$("button").....
+$(".class")....
+$("#id")........
+
+
+Now you know three ways of targeting elements: by type: $("button"), by class: $(".btn"), and by id $("#target1").
+
+jQuery's removeClass() function.
