@@ -87,3 +87,12 @@ $(selector:nth-child(3)").addClass("animated bounce"); --> more specific like ar
 
 ---------------
 
+Here's how you would target all the odd-numbered elements with class target and give them classes:
+
+$(".target:odd").addClass("animated shake");
+
+Note that jQuery is zero-indexed, meaning that, counter-intuitively, :odd selects the second element, fourth element, and so on.
+
+normal count odd and even applys even though underneath ZERO based index
+
+--------------
