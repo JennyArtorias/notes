@@ -67,3 +67,14 @@ $("selector").appendTo("selector");
 funtion chaining
 
 $("").clone() -> cloning another element then .appendTo -> eg x2 // mirror
+------------
+
+Every HTML element has a parent element from which it inherits properties.
+
+PARENT ELEMENT hirahy chart nodes / DOM object /MAYA
+
+$("#left-well").parent().css("background-color", "blue") E.G fcc
+
+---------------------------------
+
+
