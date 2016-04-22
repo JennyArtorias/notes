@@ -77,4 +77,13 @@ $("#left-well").parent().css("background-color", "blue") E.G fcc
 
 ---------------------------------
 
+CHILDREN inherit PROPERTIES from parent HTML elements
+$("#left-well").parent().css("background-color", "blue")
+
+-----------
+child(n) css selector allows you to select all the nth elements with the target class or element type.
+
+$(selector:nth-child(3)").addClass("animated bounce"); --> more specific like arrays except count starts from 1 not 0
+
+---------------
 
