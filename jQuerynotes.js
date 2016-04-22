@@ -63,3 +63,7 @@ select HTML elements -> appendTo() another HTML element
 
 $("selector").appendTo("selector");
 ------------------------
+
+funtion chaining
+
+$("").clone() -> cloning another element then .appendTo -> eg x2 // mirror
