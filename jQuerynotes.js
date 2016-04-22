@@ -54,3 +54,12 @@ $("h3").html("<em>jQuery Playground</em>");
 
 .remove() that will remove an HTML element entirely
 $("").remove() -> remove target element or "selector"
+--------------
+
+jQuery has a function called appendTo() that allows you to select HTML elements and append them to another element.
+
+
+select HTML elements -> appendTo() another HTML element
+
+$("selector").appendTo("selector");
+------------------------
