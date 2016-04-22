@@ -29,3 +29,12 @@ $("#id")........
 Now you know three ways of targeting elements: by type: $("button"), by class: $(".btn"), and by id $("#target1").
 
 jQuery's removeClass() function.
+
+We can also change the CSS of an HTML element directly with jQuery.
+
+---------------
+jQuery has a function called .css() that allows you to change the CSS of an element.
+
+Here's how we would change its color to blue:
+
+$("#target1").css("color", "blue");
