@@ -12,3 +12,11 @@ jQuery selectrs an HTML ELEMENT -> selector then does something to that element
 
 $ < -- selector
 
+eg
+
+
+.addClass() function -> jQuery add class to an element HTML 
+
+class well by using the $(".well") selector.
+
+add.Class("x y") multiple classes
