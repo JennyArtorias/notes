@@ -40,3 +40,14 @@ Here's how we would change its color to blue:
 $("#target1").css("color", "blue");
 
 adjust property of elements e.g button disabled .prop(); $("button").prop("disabled", true);
+
+-------
+
+.html() add HTML TAGS / TEXT within an element
+
+$("h3").html("<em>jQuery Playground</em>");
+-------------------------------------
+.text() -> only add TEXT no alter tags
+
+
+----------
