@@ -51,3 +51,6 @@ $("h3").html("<em>jQuery Playground</em>");
 
 
 ----------
+
+.remove() that will remove an HTML element entirely
+$("").remove() -> remove target element or "selector"
