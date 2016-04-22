@@ -38,3 +38,5 @@ jQuery has a function called .css() that allows you to change the CSS of an elem
 Here's how we would change its color to blue:
 
 $("#target1").css("color", "blue");
+
+adjust property of elements e.g button disabled .prop(); $("button").prop("disabled", true);
