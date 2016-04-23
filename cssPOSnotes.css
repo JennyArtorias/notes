@@ -1,0 +1,82 @@
+block width whole page
+
+lego
+block 
+
+
+display inline side by side -> 
+
+display:block-inline best of both worlds 
+
+
+Normal document flow 
+
+block on top of eachother
+
+in line side by side 
+
+
+-----------------
+FLOAT 
+
+div wrapper auto center margin -> 
+
+remove normal document flow 
+
+take out of document flow -> float
+
+normal document flow vs 
+
+think of normal document flow as a layer
+and a float flow layer
+float flow
+take out flow then block elements below continue without it
+
+no height
+
+div surrounded div
+
+clear restart normal document flow left and right floats
+clear floats and resume document flow
+
+margin top stretching on top of float
+
+restart normal document flow stack below float
+
+<div style="clear: both;"></div>"
+
+empty div 
+
+.service: after{ // -> inject empty element pseudo class -> empty content
+	content: "";
+	display: block;
+	clear: both;
+
+	added something to margin to resume normal document flow
+}
+
+float was intially so that you have text to the left and a little img on the right of the text
+to add height margin you need to create an empty div /
+or use the :after to create an empty space of some sort.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
