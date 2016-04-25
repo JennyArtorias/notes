@@ -60,9 +60,26 @@ to add height margin you need to create an empty div /
 or use the :after to create an empty space of some sort.
 
 
+pseudo classes : -> goes after selectrs
+
+dynamic -> hover example structural -> advance child parent relationship
 
 
+based on behaviour , structural
 
+styles users element based on relation to user actions.
+
+5th li tag on list parent tag has no children.
+
+: -> pseudo class
+
+selector:keyword{declaration}
+
+hover , active, visted
+
+article p:first-child{}
+
+article p:first-of-type{}
 
 
 

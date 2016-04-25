@@ -17,4 +17,24 @@ abbreiviated hex code 000
 
 rgb(0, 0, 0); 0 - 255
 
+levels -> direct children #section > p
 
+adjacent selector directly underneath element +
+
+span[class] -> [] attribute selector 
+div[id]
+
+a[title]
+
+span[class~="deck"] ~ deck to appear anywhere even if it has multiple classes
+
+a[href$="pdf"] -> $ target end with .pdf
+^ -> start with vs $ end with 
+
+li:nth-child(1), li:nth-child(7){} -. zero based index
+
+li:nth-child(even) can put a formula 
+
+li:nth-of-type LI ignore other elements tags
+
+n goes up in in increments from 0
